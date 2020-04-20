@@ -32,3 +32,17 @@ for animal in animals:
 for animal in animals:
     print(animal+" is a danger animal")
     print("Not a pet")
+
+# List Comprehensions
+squares = [value**2 for value in range(1,11)]
+print(squares)
+# 4-3. Counting to Twenty: Use a for loop to print the numbers from 1 to 20, inclusive
+for i in range(1,20):
+    print(i)
+    
+# 4-4. One Million: Make a list of the numbers from one to one million, and then
+# use a for loop to print the numbers. (If the output is taking too long, stop it by
+# pressing ctrl-C or by closing the output window.
+numbers = list(range(1,1000000))
+for number in numbers:
+    print(number)
