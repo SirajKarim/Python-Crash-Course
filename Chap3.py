@@ -54,3 +54,43 @@ ges.append('sohail')
 ges.insert(0,'Abdullah')
 ges.insert(2,'Ajju')
 ges.append("Akif")
+# 3-7. Shrinking Guest List
+gests = ['Ahsan','Abdullah','Hasnain']
+gests.pop()
+gests.remove("Ahsan")
+del gests[0]
+# 3-8. Seeing the World: Think of at least five places in the world you’d like to
+# visit.
+# •	 Store the locations in a list. Make sure the list is not in alphabetical order.
+# •	 Print your list in its original order. Don’t worry about printing the list neatly,
+# just print it as a raw Python list.
+places = ["Saudia","UK","Switzerland","Thailand","Turkey"]
+print(places)
+# •	 Use sorted() to print your list in alphabetical order without modifying the
+# actual list.
+print(sorted(places))
+# •	 Show that your list is still in its original order by printing it.
+print(places)
+# •	 Use sorted() to print your list in reverse alphabetical order without changing the order of the original list.
+places.reverse()
+sorted(places)
+print(places)
+# •	 Show that your list is still in its original order by printing it again.
+places.reverse()
+print(places)
+# •	 Use reverse() to change the order of your list. Print the list to show that its
+# order has changed.
+places.reverse()
+print(places)
+# •	 Use reverse() to change the order of your list again. Print the list to show
+# it’s back to its original order.
+places.reverse()
+print(places)
+# •	 Use sort() to change your list so it’s stored in alphabetical order. Print the
+# list to show that its order has been changed.
+places.sort()
+print(places)\
+# 3-9. Dinner Guests: Working with one of the programs from Exercises 3-4
+# through 3-7 (page 46), use len() to print a message indicating the number
+# of people you are inviting to dinner.
+print(len(places))
