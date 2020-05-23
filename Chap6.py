@@ -53,11 +53,22 @@ for river in rivers:
     print(river)
 for river in rivers:
     print(rivers[river])
-# 6-6. Polling: Use the code in favorite_languages.py (page 104).
 
-# •	 Make a list of people who should take the favorite languages poll. Include
-# some names that are already in the dictionary and some that are not.
-# •	 Loop through the list of people who should take the poll. If they have
-# already taken the poll, print a message thanking them for responding.
-# If they have not yet taken the poll, print a message inviting them to take
-# the poll.
+#Looping Through All Key-Value Pairs
+rivers = {
+    "Nile":"Egypt",
+    "Amazon":"South America",
+    "yangtaz":"China"
+}
+for key,value in rivers.items():
+    print("\n key: " + key)
+    print("\n value: " + value)
+    
+for name in rivers.keys():
+    print("\n Key is : " + name)
+    
+for name in sorted(rivers.keys()):
+    print("\n Key is : " + name)
+
+for value in rivers.values():
+    print("\n The value is : " + value)
